@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Development</title>
+  </head>
+
+  <body class="ml-md-5 mr-md-5 mb-md-5">
+    <!-- TODO: put your HTML code here! -->
+    <!-- nav bar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+	<a class="navbar-brand font-weight-bold" href="#">Home</a>
+	<div class="collapse navbar-collapse">
+	  <ul class="nav navbar-nav ml-auto">
+	    <li class="nav-item font-weight-bold"><a href="#section-one" style="color: var(--bg-color-one);" class="nav-link">Goal</a></li>
+	    <li class="nav-item font-weight-bold"><a href="#section-two" style="color: var(--bg-color-two);" class="nav-link">Design</a></li>
+	    <li class="nav-item font-weight-bold"><a href="#section-three" style="color: var(--bg-color-three);" class="nav-link">Result</a></li>
+	    <!-- <li class="nav-item font-weight-bold"><a href="#section-four" style="color: var(--bg-color-four);" class="nav-link">Conclusion</a></li> -->
+	  </ul>
+	</div>	
+      </div>
+    </nav>
+
+    <div id="intro" class="d-flex flex-row flex-wrap justify-content-center align-items-center text-center">
+<img src="./img/logo.png" alt="Development Logo" style="height: 75vh; box-shadow: 0 0 0 0;">
+
+    </div>
+
+    <div id="section-one" class="d-flex flex-column text-start justify-content-around align-items-center">
+      <h1 class="text-center">Goal</h1>
+        <h4>
+            Here I will present an example of a list and aggregator interface in React - <a href="https://secure-tor-00222.herokuapp.com/">Chocolate Shop</a>
+        </h4>
+      <h4> The goal of this application is to create an online chocolate shopping page.
+      </h4>
+
+    </div>
+
+    <div id="section-two" class="d-flex flex-column justify-content-start align-items-center">
+      <h1>Design</h1>
+      
+      <div class="d-flex flex-row justify-content-around align-items-start flex-wrap">
+
+        <div>
+            <h2>Layout</h2>
+            <h4>I used a simple but clear section layout to increase usability of the webpage. There are three main sections: the navigation/control panel, the products body, and a cart on the right. Since my application's theme is holiday and chocolate, I used cookie cream color as the background of each section.</h4>
+          <img src="./img/layout.png" alt="A demo online chocolate shop screenshot." style="width: 50rem; max-width: 90%;"/>
+        </div>
+
+          <div>
+              <h2>Cart Functionality</h2>
+              <h4>Each product has an image, a name, a price, a description, two attributes: color and size, and an action button "Add to Cart". When they click the action button, the cart on the right will update and display the total price amount and a list of lines. They can increase/decrease each line's qty or remove the line from the cart completely.</h4>
+              <img src="./img/cart.png" alt="A demo online chocolate shop's cart functionality screenshot." style="width: 50rem; max-width: 90%;"/>
+          </div>
+
+          <div>
+              <h2>Filter Functionality</h2>
+              <h4>User can select filters to show only the relevant products.</h4>
+              <img src="./img/filter.png" alt="A demo online chocolate shop's filter screenshot." style="width: 50rem; max-width: 90%;"/>
+          </div>
+
+          <div>
+              <h2>Sort Functionality</h2>
+              <h4>User can also sort the products by their price. </h4>
+              <img src="./img/sort.png" alt="A demo online chocolate shop's sort-by screenshot." style="width: 50rem; max-width: 90%;"/>
+          </div>
+      </div>
+
+    </div>
+
+    <div id="section-three" class="d-flex flex-column text-center justify-content-center align-items-center">
+      <h1>Result</h1>
+      
+      <h4 class="text-left">
+Here is the result <a href="https://secure-tor-00222.herokuapp.com/">Chocolate Shop</a>
+and
+            <a href="https://github.com/emmiehe/development/blob/main/src/App.js">the code</a>.
+        </h4>
+
+
+    </div>    
+
+  </body>
+</html>
